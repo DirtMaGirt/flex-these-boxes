@@ -4,12 +4,12 @@
 
 #app {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .card {
