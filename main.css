@@ -4,13 +4,13 @@
 
 #app {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
 #main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     justify-content: space-evenly;
 }
 
@@ -50,9 +50,11 @@
 }
 
 .card-body {
-    width: 200px;
+    width: 250px;
     display: flex;
     flex-direction: row;
+    padding: 10px;
+    margin: 10px;
 }
 
 .user-avatar {
