@@ -31,8 +31,11 @@
 
 #content {
     width: 70%;
+    height: 500px;
+    overflow: hidden scroll;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #sidebar {
