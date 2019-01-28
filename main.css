@@ -49,6 +49,8 @@
 
 .card-body {
     width: 200px;
+    display: flex;
+    flex-direction: row;
 }
 
 .user-avatar {
