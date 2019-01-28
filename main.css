@@ -23,7 +23,10 @@
 
 #nav {
     width: 20%;
-    height: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #content {
