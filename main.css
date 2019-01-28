@@ -4,12 +4,12 @@
 
 #app {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .card {
@@ -35,6 +35,7 @@
 
 #sidebar {
     width: 10%;
+    background: black;
 }
 
 #footer {
